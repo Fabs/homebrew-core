@@ -15,7 +15,7 @@ class Mr < Formula
   # Use brewed pod2man to ensure consistent output between platforms
   depends_on "pod2man" => :build
 
-  uses_from_macos "perl"
+  depends_on "perl"
 
   resource("test-repo") do
     url "https://github.com/Homebrew/homebrew-command-not-found.git"
